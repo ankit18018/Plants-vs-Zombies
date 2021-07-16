@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane prefHeight="274.5534362792969" prefWidth="479.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="270.5534362792969" fitWidth="481.7807229862306" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../../../../Desktop/menu.jpg" />
+      </image>
+    </ImageView>
+    <Button cancelButton="false" defaultButton="true" layoutX="240.0" layoutY="78.0" mnemonicParsing="false" prefHeight="29.9609375" prefWidth="126.5" text="SAVE GAME" />
+    <Button defaultButton="true" layoutX="240.0" layoutY="126.0" mnemonicParsing="false" prefHeight="45.9609375" prefWidth="96.0" text="EXIT GAME" />
+  </children>
+</Pane>

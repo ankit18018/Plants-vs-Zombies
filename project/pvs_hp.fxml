@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="1094.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.HelloWorld">
+   <children>
+      <ImageView fitHeight="441.0" layoutX="-1.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ps1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="460.0" layoutY="142.0" mnemonicParsing="false" onAction="#login_page" prefWidth="100.0" style="-fx-background-color: transparent;" text="New Game">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="454.0" layoutY="244.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="112.0" style="-fx-background-color: transparent;" text="Exit and Save">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="460.0" layoutY="193.0" mnemonicParsing="false" onAction="#login_page" prefWidth="100.0" style="-fx-background-color: transparent;" text="Resume">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

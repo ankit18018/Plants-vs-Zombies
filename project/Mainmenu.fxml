@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="362.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.HelloWorld">
+   <children>
+      <ImageView fitHeight="375.0" fitWidth="499.0" layoutX="1.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home%20page.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="111.0" layoutY="234.0" mnemonicParsing="false" onAction="#back_page" prefHeight="63.0" prefWidth="103.0" style="-fx-background-color: transparent;" text="Save">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="234.0" mnemonicParsing="false" onAction="#resumegame" prefHeight="63.0" prefWidth="103.0" style="-fx-background-color: transparent;" text="Exit">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="134.0" layoutY="133.0" prefHeight="40.0" prefWidth="199.0" text="Main Menu">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="177.0" prefHeight="43.0" prefWidth="427.0" text="Do you want to save or Play">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

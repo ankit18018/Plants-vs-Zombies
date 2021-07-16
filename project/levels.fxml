@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="project.HelloWorld">
+   <children>
+      <ImageView fitHeight="428.0" fitWidth="559.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home%20page.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="107.0" layoutY="122.0" mnemonicParsing="false" onAction="#level1" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level1" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="122.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level2" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="297.0" layoutY="122.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level3" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="196.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level4" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="196.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level5" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="309.0" layoutY="203.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="level6" textFill="#0a0000">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="183.0" layoutY="86.0" prefHeight="17.0" prefWidth="143.0" text="Select level" />
+   </children>
+</AnchorPane>
